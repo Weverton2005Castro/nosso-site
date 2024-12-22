@@ -1,0 +1,62 @@
+.cardd {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-image: linear-gradient(to right, purple, pink);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-left: 40%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .card-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .card-contentt h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .card-contentt p {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .heartt {
+    width: 100px;
+    height: 90px;
+    position: relative;
+  }
+  
+  .heartt:before,
+  .heartt:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: red;
+  }
+  
+  .heartt:before {
+      border-radius: 50px 50px 0 0;
+      transform: rotate(-45deg);
+      transform-origin: bottom right;
+  }
+  
+  .heartt:after {
+      border-radius: 50px 50px 0 0;
+      transform: rotate(45deg);
+      transform-origin: bottom left;
+  }

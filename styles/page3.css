@@ -1,0 +1,45 @@
+
+.card {
+    width: 300px;
+    height: 200px;
+    background-color: purple;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .cad-content {
+    padding: 20px;
+  }
+
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .card-text {
+    font-size: 14px;
+    color: #666;
+  }
+
+  .card {
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+    border-radius: 5px;
+    position: relative;
+    animation: moveCard 2s infinite alternate;
+  }
+
+
+  @keyframes moveCard {
+    0% {
+      left: 0;
+    }
+
+    100% {
+      left: 400px;
+    }
+  }

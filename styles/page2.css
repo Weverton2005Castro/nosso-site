@@ -1,0 +1,63 @@
+.cardd {
+    position: relative;
+    width: 100%;
+    max-width: 300px; 
+    height: auto; 
+    background-color: pink;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px; 
+  
+  
+  .cardd:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .cardd-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .cardd-content h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 24px;
+  }
+  
+  .cardd-content p {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 18px;
+  }
+  
+  @media (max-width: 768px) {
+    .cardd {
+      width: 90%; 
+    }
+  
+    .cardd-content h1 {
+      font-size: 20px;
+    }
+  
+    .cardd-content p {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cardd {
+      width: 95%;
+    }
+  
+    .cardd-content h1 {
+      font-size: 18px;
+    }
+  
+    .cardd-content p {
+      font-size: 14px;
+    }
+  }
+}
